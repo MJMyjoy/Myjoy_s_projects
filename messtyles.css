@@ -1,0 +1,116 @@
+html
+{
+    scroll-behavior: smooth;
+    background: url("myjoy.jpg") no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color: red;
+}
+header
+{
+    padding-bottom: 120px;
+}
+header p
+{
+    font-size: 12px;
+    text-align: right;
+}
+header span
+{
+    color: black;
+}
+input
+{
+    border-radius: 8px;
+    border: 0px;
+    width: 200px;
+    text-align: center;
+}
+.bouton
+{
+    background-color: black;
+    color: white;
+
+}
+.dec
+{
+    background-color: black;
+    color: red;
+   text-align: center;
+}
+.deco
+{
+    text-align: right;
+}
+
+fieldset
+{
+    border-radius: 10px;
+    border: dashed 1px dimgray;
+  
+  width: 47%;
+  margin: 10px;
+  
+}
+.moi
+{
+    font-size: 13px;
+    font-style: italic;
+}
+.degat
+{
+    font-size: 13px;
+    color: gold;
+    font-style: italic;
+    display: block;
+}
+.noms
+{
+    font-size: 13px;
+    font-weight: bold; 
+    color: black;
+}
+img
+{
+    width: 135px;
+    height: 80px;
+    border-radius: 10px;
+}
+legend
+{
+    color:dimgray;
+}
+
+.me
+{
+    float: left;
+}
+
+.feux
+{
+    margin: 2px;
+   text-decoration: none;
+}
+.feux:active
+{
+ background-color: darkorange;   
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+
+
+  @media screen and (max-width: 1280px)
+  {
+
+fieldset
+{
+    width: 47%;
+    margin: 1px;
+} 
